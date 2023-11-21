@@ -1,0 +1,40 @@
+@import "../../common/colors.scss" ;
+// .card-item{
+// //     display: flex;
+// //    justify-content: center;
+// //    gap: 5px;
+// //    flex-wrap: wrap;
+// // display: grid;
+// // grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+// // grid-gap: 25px;
+// // gap: 30px;
+
+// }
+
+.card-items{
+    color:$secondary;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 10px;
+    padding: 10px;
+min-height: 450px;
+height: 100%;
+    &:hover {
+        transform: scale(1.04);
+        transition: 0.3s;
+        }
+}
+h1{
+    color: aliceblue;
+}
+.card-top{
+    height: 300px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.card-bottom{
+    color: $primary-text;
+    padding: 10px;
+}

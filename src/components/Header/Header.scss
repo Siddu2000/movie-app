@@ -1,0 +1,41 @@
+@import "../../common/colors.scss" ;
+
+.header{
+    background-color:$secondary;
+    height: 72px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.logo{
+    color:$primary-text;
+    font-size: 20px;
+    font-weight: 600;
+}
+.user-image,.user-image img{
+    width: 38px;
+    height: 38px;
+}
+::placeholder{
+padding: 5px;
+// font-style: italic;
+opacity: .5;
+
+}
+  button{
+    padding: 10px;
+}
+input {
+    // border: none;
+    outline: none;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    padding: 10px 10px;
+}
+.form{
+    display: flex;
+}

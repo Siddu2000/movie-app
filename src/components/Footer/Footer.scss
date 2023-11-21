@@ -1,0 +1,11 @@
+@import "../../common/colors.scss";
+
+.Footer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 72px;
+background-color:$secondary;
+color:$primary-text;
+}
