@@ -4,6 +4,7 @@ import "./Header.scss";
 import { Link } from "react-router-dom";
 import { fetchMovies, fetchShows } from "../../StoreSlices/movieSlice";
 import { useDispatch } from "react-redux";
+import Logout from "../../Authentication/Logout";
 
 const Header = () => {
   const [term,setTerm]=useState("");

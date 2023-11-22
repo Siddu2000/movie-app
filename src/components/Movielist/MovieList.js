@@ -12,7 +12,7 @@ const MovieList = () => {
   const Shows = useSelector((state) => state.Movies.Shows);
   const settings = {
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 3,
@@ -20,13 +20,15 @@ const MovieList = () => {
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
+          slidesToScroll: 4,
         },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1,
         },
       },
     ],

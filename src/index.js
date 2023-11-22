@@ -13,6 +13,8 @@ import MovieCarousel from './components/Movielist/MovieCarousel';
 import SignUp from './Authentication/SignUp';
 import Login from './Authentication/Login';
 import Logout from './Authentication/Logout';
+import PrivateRouter from './components/Privaterouter';
+import ForgotPassword from './Authentication/ForgotPassword';
 
 const store=configureStore({
   reducer:{
@@ -49,6 +51,11 @@ element:<Home/>
    ,{
     path:"/logout",
     element:<Logout/>
+
+   }
+   ,{
+    path:"/forgot-password",
+    element:<ForgotPassword/>
    }
   ]
 }])
